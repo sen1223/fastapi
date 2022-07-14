@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from enum import Enum
 from typing import Optional, List
 from fastapi import APIRouter, Path, Query
@@ -75,8 +74,3 @@ def city_info(city: CityInfo):
     return city.dict()
 
 # test
-=======
-from fastapi import APIRouter
-
-app03 = APIRouter()
->>>>>>> origin/main
