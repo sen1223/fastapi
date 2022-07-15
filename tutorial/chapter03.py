@@ -73,4 +73,4 @@ def city_info(city: CityInfo):
     print(city.name, city.country)
     return city.dict()
 
-# test
+
